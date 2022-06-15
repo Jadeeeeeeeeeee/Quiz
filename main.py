@@ -29,5 +29,6 @@ elif question_1 == "b" or question_1 == "Goodmorning" or question_1 == "c" or qu
   print("unfortunately you are wrong, the correct answer is a.Hello")
 else:
   print("Please answer a letter")
-  
+
+def 
 
