@@ -10,20 +10,22 @@ def write(words):
     sleep(0.03)
     sys.stdout.write(char)
     sys.stdout.flush()
- 
-#Question1  
+
+  "\033[4mQuestion 1 :\033[0m"
+#Questions
+#The questions 
 def question1():
   global score
-  print("Question 1 :")
+  print("\033[4mQuestion 1:\033[0m")
   answer1 = input("What does Kia ora mean in english? \na. Good morning \nb. Hello \nc.Welcome \nAnswer: ").lower()
 
-  if answer1 == "a":
+  if answer1 == "b":
     print("You are correct!")
     score += 1
     print("Score:", score)
     print("")
     question2()
-  elif answer1 == "b" or answer1 == "c":
+  elif answer1 == "a" or answer1 == "c":
     print("You are wrong, the     correct answer is a.Hello")
     print("score:", score)
     print("")
@@ -34,7 +36,7 @@ def question1():
     question1()
 #Question2
 def question2():
-  print("Question 2 :")
+  print("\033[4mQuestion 2:\033[0m")
   global score
   answer2 = input("What is does Nau mai, haere mai mean in english? \na. Goodbye \nb. Welcome \nc. Take care \nAnswer :").lower()
 
@@ -54,7 +56,7 @@ def question2():
     question2()
 #Question3
 def question3():
-  print("Question 3:")
+  print("\033[4mQuestion 3:\033[0m")
   global score
   answer3 = input("What is mōrena in english \na. Good morning \nb. Good afternoon \nc. Good evening \nAnswer :").lower()
 
@@ -74,7 +76,7 @@ def question3():
     question3()
 #Question4
 def question4():
-  print("Question 4:")
+  print("\033[4mQuestion 4:\033[0m")
   global score
   answer4 = input("What is hēki in english? \na.bread \nb.bacon \nc.egg \nAnswer :").lower()
 
@@ -94,7 +96,7 @@ def question4():
     question4()
 #Question5
 def question5():
-  print("Question 5:")
+  print("\033[4mQuestion 5:\033[0m")
   global score
   answer5 = input("What is pero in english? \na.cat \nb.bird \nc.dog \nAnswer :").lower()
 
@@ -114,7 +116,7 @@ def question5():
     question5()
 #Question6
 def question6():
-  print("Question 6:")
+  print("\033[4mQuestion 6:\033[0m")
   global score
   answer6 = input("What is egg in Te Reo Māori? \na.ngeru  \nb.koe  \nc.hēki  \nAnswer :").lower()
 
@@ -134,7 +136,7 @@ def question6():
     question6()
 #Question7
 def question7():
-  print("Question 7:")
+  print("\033[4mQuestion 7:\033[0m")
   global score
   answer7 = input("What is Good morning in Te Reo Māori? \na.tēnā koe i tēnei ahiahi  \nb.mōrena  \nc.pō mārie  \nAnswer :").lower()
 
@@ -154,7 +156,7 @@ def question7():
     question7()
 #Question8
 def question8():
-  print("Question 8:")
+  print("\033[4mQuestion 8:\033[0m")
   global score
   answer8 = input("What is Hello in Te Reo Māori? \na.Kia ora \nb.Nau mai  \nc.mōrena  \nAnswer :").lower()
 
@@ -174,7 +176,7 @@ def question8():
     question8()
 #Question9
 def question9():
-  print("Question 9:")
+  print("\033[4mQuestion 9:\033[0m")
   global score
   answer9 = input("What is Welcome in Te Reo Māori? \na.Kia ora \nb.Nau mai, haere mai  \nc.mōrena  \nAnswer :").lower()
 
@@ -194,7 +196,7 @@ def question9():
     question9()   
 #Question10
 def question10():
-  print("Question 10:")
+  print("\033[4mQuestion 10:\033[0m")
   global score
   answer10 =  input("What is egg in Te Reo Māori? \na.ngeru  \nb.koe  \nc.hēki  \nAnswer :").lower()
 
