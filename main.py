@@ -2,7 +2,7 @@
 import sys, json
 import time
 from time import sleep
-
+from simple_colors import *
 #Functions goes here
 #This functions makes it possible to write the words meaning that letters will pop up 1 by 1 when used the function write instead of print
 def write(words):
@@ -11,7 +11,6 @@ def write(words):
     sys.stdout.write(char)
     sys.stdout.flush()
 
-  "\033[4mQuestion 1 :\033[0m"
 #Questions
 #The questions 
 def question1():
@@ -26,13 +25,13 @@ def question1():
     print("")
     question2()
   elif answer1 == "a" or answer1 == "c":
-    print("You are wrong, the     correct answer is a.Hello")
+    print("You are wrong, the correct answer is a.Hello")
     print("score:", score)
     print("")
     question2()
   else:
     print("")
-    print("Please asnwer a,b or c")
+    print('\033[1m' + "Please asnwer a,b or c")
     question1()
 #Question2
 def question2():
@@ -52,7 +51,8 @@ def question2():
     print("")
     question3()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question2()
 #Question3
 def question3():
@@ -72,7 +72,8 @@ def question3():
     print("")
     question4()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question3()
 #Question4
 def question4():
@@ -92,7 +93,8 @@ def question4():
     print("")
     question5()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question4()
 #Question5
 def question5():
@@ -112,7 +114,8 @@ def question5():
     print("")
     question6()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question5()
 #Question6
 def question6():
@@ -132,7 +135,8 @@ def question6():
     print("")
     question7()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question6()
 #Question7
 def question7():
@@ -152,7 +156,8 @@ def question7():
     print("")
     question8()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question7()
 #Question8
 def question8():
@@ -172,7 +177,8 @@ def question8():
     print("")
     question9()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question8()
 #Question9
 def question9():
@@ -192,7 +198,8 @@ def question9():
     print("")
     question10()
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question9()   
 #Question10
 def question10():
@@ -208,7 +215,8 @@ def question10():
     print("You are wrong, the correct answer is c.hēki")
     print("Score:", score)
   else:
-    print("Please asnwer a,b or c")
+    print("")
+    print('\033[1m' + "Please asnwer a,b or c")
     question10()   
 
 #This function tells the user about their total score and how they did based on it
