@@ -1,4 +1,5 @@
-#Functions | Jade Ramos | 21/06/22 | V.7
+#Functions | Jade Ramos | 11/05/22 | V.6
+import questiontest
 import sys, json
 import time
 from time import sleep
@@ -11,7 +12,7 @@ def write(words):
     sys.stdout.write(char)
     sys.stdout.flush()
 
-#Questions | Jade Ramos | 21/06/22 | V.7
+#Questions
 #The questions 
 def question1():
   global score
@@ -231,7 +232,7 @@ def totalscore():
     print("Your total score is:",score ,"Congratulations you got all the questions correct!")
     
 #Main routine 
-#Beginnig | Jade Ramos | 21/06/22 | V.7
+#Beginnig | Jade Ramos | 11/05/22 | V.6
 #Ask the user what their name is and tell them about the program 
 #after the user puts their name in start the quiz
 write("Welcome to Te Reo quiz, Please enter your name:")
