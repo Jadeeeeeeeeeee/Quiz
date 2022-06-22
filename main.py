@@ -5,6 +5,14 @@ from time import sleep
 from simple_colors import *
 #Functions goes here
 #This functions makes it possible to write the words meaning that letters will pop up 1 by 1 when used the function write instead of print
+def instructions():
+  instructions = input("Would you like to see the insrutions?").lower()
+
+  if instructions == "yes":
+    write("This quiz is a multiple choice quiz,you are given 3 choices which you to pick from.You get a point for every correct asnwer and the game will check on how you did based on this score ")
+
+  else:
+    question1()
 def write(words):
   for char in words:
     sleep(0.03)
@@ -242,6 +250,6 @@ print("\n")
 #The quiz
 score = 0
 time.sleep(0.5)
-question1()
+instructions()
 print("")
 totalscore()
