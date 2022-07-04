@@ -69,8 +69,8 @@ def generate_question(english, right_answer, option_1, option_2):
       score += 1
       print("Score:", score)
     else:
-      print("Score:", score)
       print("incorrect.")
+      print("Score:", score)
 
 for i in range (0, 5):
   generate_question(english[i],right_answer[i],option_1[i],option_2[i])
