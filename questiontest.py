@@ -239,8 +239,7 @@ def totalscore():
   else:
     print("Your total score is:",score ,"Congratulations you got all the questions correct!")
     
-#Main routine 
-#Beginnig | Jade Ramos | 21/06/22 | V.7
+#Greeting | Jade Ramos | 21/06/22 | V.7
 #Ask the user what their name is and tell them about the program 
 #after the user puts their name in start the quiz
 write("Welcome to Te Reo quiz, Please enter your name:")
